@@ -6,10 +6,10 @@ variable "content" {
     default = "We love pets!"
 }
 variable "prefix" {
-      default = "Mrs"
+     default = "Mrs"
 }
 variable "separator" {
-    dedefault = "."    
+    default = "."    
 }
 variable "length" {
     default = "1"
