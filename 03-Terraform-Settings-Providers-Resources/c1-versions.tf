@@ -1,5 +1,5 @@
-terraform {
-  required_version = "~> 1.19"
+/*terraform {
+  required_version = "~>1.19"
   required_providers {
     aws = {
         source = "harshicorp/aws"
@@ -7,6 +7,7 @@ terraform {
     }
   }
 }
+*/
 
 provider "aws" {
     region = "us-east-2"
